@@ -34,6 +34,7 @@ const next = () => {
   sliderDiv.querySelector("img").src = images[count];
 };
 
+
 // slider change previous button
 const previous = () => {
   count--;
@@ -42,6 +43,7 @@ const previous = () => {
   }
   sliderDiv.querySelector("img").src = images[count];
 };
+
 
 // slider indicator button
 changeSlider.onclick = (e) => {
