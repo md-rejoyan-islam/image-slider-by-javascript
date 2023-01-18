@@ -14,7 +14,7 @@ const images = [
 let totalSlider = "";
 images.map((data, index) => {
   totalSlider += `
-<button class="fill-white changeBtn" data-index=${index}>
+<button class="fill-white changeBtn outline-none" data-index=${index}>
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M5 11h14v2H5z"></path></svg> 
     </button>
 `;
